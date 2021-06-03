@@ -1,6 +1,7 @@
 import './style.css'
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import pageBackgroud from './assets/img/deep-space.jpg';
 
 const scene = new THREE.Scene();
 
@@ -49,7 +50,7 @@ function addStars() {
 
 Array(500).fill().forEach(addStars);
 
-const spaceTexture = new THREE.TextureLoader().load('../img/deep-space.jpg');
+const spaceTexture = new THREE.TextureLoader().load(pageBackgroud);
 scene.background = spaceTexture;
 
 
