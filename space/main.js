@@ -49,7 +49,7 @@ function addStars() {
 
 Array(500).fill().forEach(addStars);
 
-const spaceTexture = new THREE.TextureLoader().load('assets/img/deep-space.jpg');
+const spaceTexture = new THREE.TextureLoader().load('../img/deep-space.jpg');
 scene.background = spaceTexture;
 
 
