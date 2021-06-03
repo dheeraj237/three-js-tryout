@@ -26,7 +26,7 @@ jobs:
       run: cd space && npm install
     
     - name: Build project
-      run: cd space && ls && npm run build --base=/three-js-tryout && mv ./dist/ ../
+      run: cd space && ls && npm run build -- --base=/three-js-tryout && mv ./dist/ ../
 
     - name: Upload production-ready build files
       uses: actions/upload-artifact@v2
