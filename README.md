@@ -3,4 +3,4 @@
 ## 1. space
 three js sample scene with random start and space background
 
-![Space](space/public/space.gif) 
+![Space](space/assets/space.gif) 
